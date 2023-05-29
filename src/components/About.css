@@ -1,32 +1,43 @@
-.contacts {
-    width: 100%;
-    background-color: #d1cfcf;
-    color: #000000;
-    padding: 1rem 1rem;
+* {
     font-family: system-ui;
     text-transform: capitalize;
 }
+.about {
+    width: 100%;
+    color: #000000;
+    padding: 1rem 1rem;
+    font-family: system-ui;
+}
 
-.contacts .container {
+.about .container {
     max-width: 1240px;
     margin: auto;
     text-align: center;
 }
 
-.contacts ul {
+.about ul {
     display: flex;
     justify-content: center;
 }
 
-.contacts li {
+.about img {
+    width: 30vh;
+    height: 40vh;
+}
+
+mark {
+    background-color: rgb(250, 224, 158);
+}
+
+.about li {
     padding: 1rem;
 }
 
-.contacts li a {
+.about li a {
     color: #000000;
 }
 
-.contacts li a:hover {
+.about li a:hover {
     padding-bottom: 12px;
     border-bottom: 3px solid black;
 }

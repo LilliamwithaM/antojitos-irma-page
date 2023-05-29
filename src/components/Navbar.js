@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
-import logo from './images/logo.jfif'
+import logo from './images/logo.png'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -18,6 +18,10 @@ const Navbar = () => {
                         : (<FaBars size={30} style={{ color: '#ffffff' }} />)}
 
                 </div>
+				
+                <a href='/' className='logo'>
+                        <img src={logo} alt='logo' />
+                        </a>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
                         <a href='#home' onClick={closeMenu}>Inicio</a>
@@ -25,13 +29,11 @@ const Navbar = () => {
                     <li className='nav-item'>
                         <a href='#products' onClick={closeMenu}>Productos</a>
                     </li>
-                </ul>
-                <a href='/' className='logo'>
-                        <img src={logo} alt='logo' />
-                        </a>
-                <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
                         <a href='#promotions' onClick={closeMenu}>Promociones</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#about' onClick={closeMenu}>Sobre nosotros</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#contacts' onClick={closeMenu}>Contactos</a>

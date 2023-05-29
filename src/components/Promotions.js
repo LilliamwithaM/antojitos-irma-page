@@ -6,13 +6,12 @@ const Products = () => {
         <div className='promotions' id='promotions'>
             <div className='content'>
             <div className='col-2'>
-                    <h2>Promociones</h2>
-                    <ul>
-                    <li>Dos tortas por $40.</li>
-                    <li>Un combo de hamburguesa sencilla y papas a la francesa por $50.</li>
-                    <li>Dos hamburguesas sencillas por $80.</li>
-                    <li>Dos pambazos por $40.</li>
-                    </ul>
+            <h2 className='title'>Promociones</h2>
+            <br></br>
+                    Dos tortas por $40.<br></br>
+                    Un combo de hamburguesa sencilla y papas a la francesa por $50.<br></br>
+                    Dos hamburguesas sencillas por $80.<br></br>
+                    Dos pambazos por $40.<br></br>
                 </div>
             </div>
         </div>
